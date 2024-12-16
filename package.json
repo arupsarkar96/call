@@ -1,0 +1,23 @@
+{
+  "name": "call",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Compiling TypeScript to JavaScript...' && tsc",
+    "start": "echo 'Running the compiled JavaScript...' && node dist/index.js",
+    "dev": "echo 'Starting development server...' && nodemon ./src/index.ts",
+    "watch": "echo 'Running TypeScript in watch mode...' && tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}

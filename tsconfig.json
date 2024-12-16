@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2023", // Specify ECMAScript target version
+    "module": "commonjs", // Module system to use
+    "rootDir": "./src", // Root directory of input files
+    "outDir": "./dist", // Output directory for compiled files
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Allow import/export compatibility
+    "skipLibCheck": true, // Skip checking .d.ts files
+    "forceConsistentCasingInFileNames": true // Ensure file name casing consistency
+  },
+  "include": [
+    "src"
+  ], // Files or folders to include
+  "exclude": [
+    "node_modules"
+  ] // Files or folders to exclude
+}
